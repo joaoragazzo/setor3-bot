@@ -1033,8 +1033,8 @@ async def epic(ctx):
     mouse.click(Button.left,1)
 
     if ctx.author.id == 226539721994665984 or ctx.author.id == 285493211852570634:
-        username = "joao_ragazzo@hotmail.com"
-        password = "36517488Jhon"
+        username = ""
+        password = ""
     else:
         msg = await ctx.send("```Você não está cadastrado na Epic Games! Fale com o meu pai para ele te cadastrar.```")
         return
@@ -1241,18 +1241,18 @@ async def loja(ctx):
     mouse.click(Button.left,1)
 
     if ctx.author.id == 226539721994665984 or ctx.author.id == 285493211852570634: #João Paulo 
-        username = "Noobinho1337"
-        password = "Maggie02092003"
+        username = ""
+        password = ""
         msgg = await ctx.message.reply(embed = resposta)
 
     elif ctx.author.id == 549739838518329383: #Gustavo
-        username = "ainbootzin"
-        password = "G30821564G"
+        username = ""
+        password = ""
         msgg = await ctx.message.reply(embed = resposta)
 
     elif ctx.author.id == 286377147663253505: #César
-        username = "fallen2547"
-        password = "33113515llm"
+        username = ""
+        password = ""
         msgg = await ctx.message.reply(embed = resposta)
         
     elif ctx.author.id == 392581235802636288: #Neto
@@ -1271,12 +1271,12 @@ async def loja(ctx):
         reaction, user = await bot.wait_for('reaction_add', timeout = 60.0, check=check) 
 
         if str(reaction.emoji) == '1️⃣':
-            username = "neto908"
-            password = "2013.lja.neto"
+            username = ""
+            password = ""
         
         elif str(reaction.emoji) == '2️⃣':
-            username = "Melhorqtateno"
-            password = "t4tenoGostosa"
+            username = ""
+            password = ""
 
         await msg9.delete()
         msgg = await ctx.message.reply(embed = resposta)
@@ -1297,19 +1297,19 @@ async def loja(ctx):
         reaction, user = await bot.wait_for('reaction_add', timeout = 60.0, check=check) 
 
         if str(reaction.emoji) == '1️⃣':
-            username = "pedrogranola"
-            password = "PEDRO@3356"
+            username = ""
+            password = ""
 
         if str(reaction.emoji) == '2️⃣':
-            username = "pranola"
-            password = "Milene@143356"
+            username = ""
+            password = ""
 
         await msg9.delete()
         msgg = await ctx.message.reply(embed = resposta)
 
     elif ctx.author.id == 219933804632997888: #Eduardo
-        username = "Unknow021"
-        password = "deki210904"
+        username = "
+        password = ""
         msgg = await ctx.message.reply(embed = resposta)
 
     else:
@@ -1929,4 +1929,4 @@ async def on_ready():
     print('Aguardando comandos e a disposição do usuário')
     print('<=========================================>')
 
-bot.run('ODg0NjQyODQ2ODc4MDg1MjAw.YTbd2g.pyKsrTOiYoL-q8SXg-gv2odzx_E')
+bot.run()
